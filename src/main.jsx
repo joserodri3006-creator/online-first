@@ -1,4 +1,4 @@
-import React,{useState}from"react";import{createRoot}from"react-dom/client";import{ArrowLeft,ArrowRight,ArrowUpRight,Check,RotateCcw,ShieldCheck}from"lucide-react";import"./styles.css";
+import React,{useState}from"react";import{createRoot}from"react-dom/client";import{ArrowLeft,ArrowRight,ArrowUpRight,Check,Clock3,RotateCcw,ShieldCheck}from"lucide-react";import"./styles.css";
 const Q=[
 ["prozess","Welchen Prozess möchtest du prüfen?",["Kundenanfragen / Leads","Angebote / Aufträge","Bewerbungen / Personal","Dokumente / Freigaben","Kundenservice / Kommunikation","Verwaltung / Backoffice","Anderer Prozess"].map(x=>[x,0])],
 ["haeufigkeit","Wie häufig läuft dieser Prozess ab?",[["Seltener als 10× pro Monat",0],["10–49× pro Monat",1],["50–199× pro Monat",2],["200–499× pro Monat",3],["500× oder öfter pro Monat",4]]],
